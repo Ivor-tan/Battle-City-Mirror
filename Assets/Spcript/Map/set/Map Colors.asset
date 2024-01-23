@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01c4f686400ae2a2a6aae7f55d65835, type: 3}
+  m_Name: Map Colors
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.24.3
+  namedColorDataSet:
+    elements:
+    - id: e037275c-ae27-4684-9273-4d7971a8a87b
+      name: Wall
+      color:
+        serializedVersion: 2
+        rgba: 4278190231
+    - id: f5210424-bb04-4dfe-8da0-42b2c25e7922
+      name: Grass
+      color:
+        serializedVersion: 2
+        rgba: 4278630920
+    - id: ff5f6857-09c3-4484-a961-be39ca7b15fd
+      name: Iron Wall
+      color:
+        serializedVersion: 2
+        rgba: 4293322727
+    - id: 5b3c1175-e7dc-4343-8828-f5a3cf81aac9
+      name: Water
+      color:
+        serializedVersion: 2
+        rgba: 4293487401
+    - id: 2a101671-8f80-437e-aa6f-095c6f3d4f41
+      name: PlayerStartPoint
+      color:
+        serializedVersion: 2
+        rgba: 4286762703
+    - id: badaa01c-39b0-4f6a-8a4e-e9b6574392e4
+      name: EnemyBornPoint
+      color:
+        serializedVersion: 2
+        rgba: 4282857508
+    orderedIds:
+    - e037275c-ae27-4684-9273-4d7971a8a87b
+    - f5210424-bb04-4dfe-8da0-42b2c25e7922
+    - ff5f6857-09c3-4484-a961-be39ca7b15fd
+    - 5b3c1175-e7dc-4343-8828-f5a3cf81aac9
+    - 2a101671-8f80-437e-aa6f-095c6f3d4f41
+    - badaa01c-39b0-4f6a-8a4e-e9b6574392e4
+  serializedNames: []
+  serializedColors: []
+  serializedLinkedSets:
+  - {fileID: 11400000, guid: 4468bf5ff0dc01e4e93fecbeb5fd2846, type: 2}

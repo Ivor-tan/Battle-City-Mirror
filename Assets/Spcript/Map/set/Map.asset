@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dded20f928340d3bd4366169cdae5a5, type: 3}
+  m_Name: Map
+  m_EditorClassIdentifier: 
+  serializedObjectVersion:
+    version: 1.24.3
+  prefabWidth: 1
+  prefabHeight: 1
+  prefabTypes: []
+  openPrefabSet:
+    elements:
+    - id: 333d67bc-43a5-4134-9c86-7b686b8dabc4
+      name: Wall
+      isWeightEnabled: 0
+      totalWeight: 1
+      prefabs:
+      - weight: 1
+        prefab: {fileID: 9147183181728643142, guid: e550f8143b9b7424da92c9972a8dc043, type: 3}
+    - id: 9fa913c4-b4f9-4d01-ac1e-448d8bd12d68
+      name: Grass
+      isWeightEnabled: 0
+      totalWeight: 1
+      prefabs:
+      - weight: 1
+        prefab: {fileID: 8700200136309008418, guid: 33dea411db6a9d249825ce13d991e3bc, type: 3}
+    - id: 0242530b-7254-49cd-8685-dec6f3a97702
+      name: Iron Wall
+      isWeightEnabled: 0
+      totalWeight: 1
+      prefabs:
+      - weight: 1
+        prefab: {fileID: 7025329175316545264, guid: de247ed46a1f68b4696384835fd443bf, type: 3}
+    - id: 66e2470b-1e2f-4b0f-852b-990aadc9f74b
+      name: Water
+      isWeightEnabled: 0
+      totalWeight: 1
+      prefabs:
+      - weight: 1
+        prefab: {fileID: 3819756791176197789, guid: 8582019da5c682d4392eacebbefde0f9, type: 3}
+    - id: cf94fd75-5ff2-4c5d-9631-92986862602d
+      name: PlayerStartPoint
+      isWeightEnabled: 0
+      totalWeight: 1
+      prefabs:
+      - weight: 1
+        prefab: {fileID: 4470251770628649968, guid: 9e6d5c4626c4f984ea0b033117926092, type: 3}
+    - id: 8559ef8b-d6d3-4894-851f-6ecf86a79c05
+      name: EnemyBornPoint
+      isWeightEnabled: 0
+      totalWeight: 1
+      prefabs:
+      - weight: 1
+        prefab: {fileID: 8477315654548925202, guid: 42d031006381f4242a54c7edd440c18e, type: 3}
+    orderedIds:
+    - 333d67bc-43a5-4134-9c86-7b686b8dabc4
+    - 9fa913c4-b4f9-4d01-ac1e-448d8bd12d68
+    - 0242530b-7254-49cd-8685-dec6f3a97702
+    - 66e2470b-1e2f-4b0f-852b-990aadc9f74b
+    - cf94fd75-5ff2-4c5d-9631-92986862602d
+    - 8559ef8b-d6d3-4894-851f-6ecf86a79c05
